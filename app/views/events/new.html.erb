@@ -1,0 +1,23 @@
+<h1> Bienvenue sur la page de création d'evenement </h1>
+
+
+<%= form_for @event, url: {action: "create"} do |f| %>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description, autofocus: true %>
+  </div>
+
+  <div class="field">
+    <%= f.label :lieu %><br />
+    <%= f.text_field :place, autocomplete: "off" %>
+  </div>
+
+    <div class="field">
+      <%= f.label :date %>
+      <%= f.date_field :date %>
+    </div>
+
+  <div class="actions">
+    <%= f.submit "Crée l'evenement" %>
+  </div>
+<% end %>
