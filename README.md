@@ -10,6 +10,12 @@ Bloqué à la méthode subscribe, ce qu'il nous a empếché de nous amuser sur 
 
 -/ rails db:migrate
 
+-------------------------------------------------------------
+
+Application Heroku : https://floating-ocean-76876.herokuapp.com/
+
+-------------------------------------------------------------
+
 ENJOY ! A vos corrections ;)
 
 
