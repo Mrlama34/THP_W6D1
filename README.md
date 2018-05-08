@@ -1,3 +1,4 @@
+GROUPE : Miguel Sorin, Leo D, Leo Legoff
 --------------------------------------------------------------
 
 Bloqué à la méthode subscribe, ce qu'il nous a empếché de nous amuser sur la gem Stripe :(
@@ -17,6 +18,7 @@ Application Heroku : https://floating-ocean-76876.herokuapp.com/
 -------------------------------------------------------------
 
 ENJOY ! A vos corrections ;)
+
 
 
 
