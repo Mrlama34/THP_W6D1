@@ -7,7 +7,8 @@
 
 <% @events.each_with_index do |event, i| %>
   		<p> Event n° <%= event.id %></p>
-      <p><%= link_to "En savoir plus", event_path(event.id), class: "btn btn-outline-secondary" %></p>
+      <p><%= link_to "En savoir plus", event_path(event.id)%></p>
+      <p><%= link_to "S'inscrire", subscribe_path %></p>
 <% end %>
 <% end %>
 

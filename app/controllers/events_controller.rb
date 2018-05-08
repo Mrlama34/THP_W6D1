@@ -30,6 +30,16 @@ class EventsController < ApplicationController
 		@event = Event.find_by(id: params[:id])
 
 	end
+
+	def subscribe
+		if user_signed_in?
+			attendee_id = @current_user.id
+			flash[:success] = "Inscription réussie !"
+			redirect_to events_path
+		end
+
+
+	end
 private
 
 def params_event
