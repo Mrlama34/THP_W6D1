@@ -1,0 +1,6 @@
+<p> Ici tu es sur la page de l'évènement <%= @event.id %> </p>
+
+<p> Il aura lieu le <%= @event.date %> à <%= @event.place %> </p>
+<p> Description : <%= @event.description %></p>
+
+<%= link_to "Revenir à l'index", events_path %>

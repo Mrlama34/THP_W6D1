@@ -1,0 +1,13 @@
+<h1>Index des events</h1>
+<hr>
+<% if user_signed_in? %>
+   
+
+  <h3>Voici les évènements que tu as créé : </h3>
+
+<% @events.each_with_index do |event, i| %>
+  		<p> Event n° <%= event.id %></p>
+      <p><%= link_to "En savoir plus", event_path(event.id), class: "btn btn-outline-secondary" %></p>
+<% end %>
+<% end %>
+

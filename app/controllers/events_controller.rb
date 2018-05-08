@@ -6,7 +6,7 @@ class EventsController < ApplicationController
 	def create
 		if user_signed_in?
 			@current_user = current_user
-			@event = Event.new("params_event")
+			@event = Event.new(params_event)
 			@event.creator_id = @current_user.id
 			@event.save
 			if @event.save
@@ -27,6 +27,7 @@ class EventsController < ApplicationController
 	end
 
 	def show
+		@event = Event.find_by(id: params[:id])
 
 	end
 private
