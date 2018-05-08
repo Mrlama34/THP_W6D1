@@ -1,25 +1,22 @@
-# README
+--------------------------------------------------------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bloqué à la méthode subscribe, ce qu'il nous a empếché de nous amuser sur la gem Stripe :(
 
-Things you may want to cover:
+"Procédure habituel ?" -"Procédure habituel Hubert !"
 
-* Ruby version
+-/ bundle update
 
-* System dependencies
+-/ bundle install --without production
 
-* Configuration
+-/ rails db:migrate
 
-* Database creation
+ENJOY ! A vos corrections ;)
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+
+
+
 # THP_W6D1
